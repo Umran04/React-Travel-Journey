@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+.app {
+  background-color: #ffbba0;
+  height: 747px;
+  border: 2px solid #005051;
+  border-radius: 5px;
+}
+
+body {
+  width: 550px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  height: 55px;
+  background-color: #005051;
+  color: white;
+  justify-content: center;
+}
+
+.header--logo {
+  margin-top: 6px;
+  filter: invert(1) brightness(2);
+}
+
+.location {
+  display: flex;
+  font-family: Inter, sans-serif;
+  color: #2b283a;
+  margin: 35px 40px 0px 40px;
+  width: 470px;
+  height: 178px;
+  justify-content: space-evenly;
+}
+
+.location--logo {
+  margin-top: 10px;
+  display: flex;
+}
+
+.location--logo > img {
+  width: 7px;
+  height: 9.55px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.location--exact {
+  margin-top: 5px;
+  font-size: 10.24px;
+}
+
+.location--image {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.location--facts {
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 326px;
+  height: 124px;
+  line-height: 1.05;
+}
+
+.location--name {
+  margin: 1px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.location--date {
+  font-size: 10.24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.location--link {
+  color: #918e9b;
+}
+
+.location--description {
+  font-size: 11px;
+  margin-top: 5px;
+}
