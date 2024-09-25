@@ -30,8 +30,8 @@ export default [
   },
 
   {
-    title: 'London',
-    location: 'London Eye',
+    title: 'London Eye',
+    location: 'London, England',
     googleMapsUrl:
       'https://www.google.com/maps/place/London/@51.5281798,-0.4312316,10z/data=!3m1!4b1!4m6!3m5!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw?entry=ttu&g_ep=EgoyMDI0MDkyMi4wIKXMDSoASAFQAw%3D%3D',
     startDate: 'My whole life',
