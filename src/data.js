@@ -1,6 +1,6 @@
 import React from 'react';
 import kodai from './assets/kodai.jpg';
-import makkah from './assets/kabah.jpg';
+import makkah from './assets/mtfuji.jpg';
 import london from './assets/london.jpg';
 
 export default [
@@ -18,24 +18,24 @@ export default [
   },
 
   {
-    title: 'Makkah',
-    location: 'Saudi Arabic',
+    title: 'Mt Fuji',
+    location: 'Japan',
     googleMapsUrl:
-      'https://www.google.com/maps/place/Makkah+Saudi+Arabia/@21.4359344,39.6813922,11z/      data=!3m1!4b1!4m6!3m5!1s0x15c21b4ced818775:0x98ab2469cf70c9ce!8m2!3d21.4240968!4d39.8173364!16zL20vMDU4d3A?entry=ttu&g_ep=EgoyMDI0MDkyMi4wIKXMDSoASAFQAw%3D%3D',
+      'https://www.google.com/maps/place/Mount+Fuji/@35.3606233,138.7067638,14z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D',
     startDate: '01/07/2018',
     endDate: '16/07/2018',
     description:
-      'Makkah, city, western Saudi Arabia, located in the Ṣirāt Mountains, inland from the Red Sea coast. It is the holiest of Muslim cities. Muhammad, the founder of Islam, was born in Mecca, and it is toward this religious center that Muslims turn five times daily in prayer (see qiblah).',
+      'Japan’s Mt. Fuji is an active volcano about 100 kilometers southwest of Tokyo. Commonly called “Fuji-san,” it’s the country’s tallest peak, at 3,776 meters. A pilgrimage site for centuries, it’s considered one of Japan’s 3 sacred mountains, and summit hikes remain a popular activity. ',
     imageUrl: makkah,
   },
 
   {
-    title: 'London Eye',
-    location: 'London, England',
+    title: 'London',
+    location: 'London Eye',
     googleMapsUrl:
       'https://www.google.com/maps/place/London/@51.5281798,-0.4312316,10z/data=!3m1!4b1!4m6!3m5!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw?entry=ttu&g_ep=EgoyMDI0MDkyMi4wIKXMDSoASAFQAw%3D%3D',
-    startDate: 'My whole life',
-    endDate: 'My whole life',
+    startDate: '05/01/2006',
+    endDate: '10/12/2024',
     description:
       'London stands on the River Thames in southeast England, at the head of a 50-mile (80 km) estuary down to the North Sea, and has been a major settlement for nearly 2,000 years. Its ancient core and financial centre, the City of London, was founded by the Romans as Londinium and has retained its medieval boundaries.',
     imageUrl: london,
